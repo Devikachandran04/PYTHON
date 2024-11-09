@@ -1,0 +1,12 @@
+str1=input("enter the string1")
+
+l=len(str1) 
+x=int(l/2) 
+for i in range(x+1): 
+    if(str1[i]!=str1[-(i+1)]): 
+        print("not palindrom") 
+        break 
+    else:
+
+        print("palindrom")
+        break
